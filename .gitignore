@@ -1,30 +1,94 @@
 # Python virtual environment
+.env
 .venv/
 venv/
 ENV/
+env/
+env.bak/
+venv.bak/
 
 # Python cache files
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Distribution / packaging
-dist/
-build/
-*.egg-info/
+# C extensions
+*.so
 
-# Environment variables
-.env
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
 # IDE specific files
 .vscode/
 .idea/
 *.swp
 *.swo
+.spyderproject
+.spyproject
+.ropeproject
 
 # Jupyter Notebook
 .ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Logs and databases
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Flask stuff
+instance/
+.webassets-cache
+
+# Documentation
+docs/_build/
 
 # Local development settings
-*.log
-.DS_Store 
+.DS_Store
+.ruff_cache/
+.pypirc
+.pdm.toml
+.pdm-python
+.pdm-build/
+.pytype/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+cython_debug/
